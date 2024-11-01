@@ -1,0 +1,21 @@
+plugins {
+    id "com.android.library"
+}
+
+android {
+    compileSdkVersion 34
+
+    defaultConfig {
+        minSdkVersion 24
+        targetSdkVersion 34
+    }
+    namespace 'com.github.barteksc.pdfviewer'
+
+}
+
+dependencies {
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    api 'com.github.barteksc:pdfium-android:1.9.0'
+}
+
+//apply from: 'bintray.gradle'
