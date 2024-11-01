@@ -3,6 +3,8 @@ plugins {
     id 'org.jetbrains.kotlin.android'
 }
 
+group = 'com.github.ngoconglinh'
+
 android {
     namespace 'com.github.barteksc.sample'
     compileSdkVersion 34
